@@ -1,22 +1,22 @@
-#Final Project
-#5 servers.py
-#There are 5 servers that communicate with each other
-#They all handle:
-#   userInfo
-#   user's blog
-#   log of all plog operations as blockchain
+    #Final Project
+    #5 servers.py
+    #There are 5 servers that communicate with each other
+    #They all handle:
+    #   userInfo
+    #   user's blog
+    #   log of all plog operations as blockchain
 
-# It will use multipaxos to reach consensus on what to append to blockchain
-# no malicious fails, but 
-# CRASHES, FAILSTOP, PARTITIONS are allowed
+    # It will use multipaxos to reach consensus on what to append to blockchain
+    # no malicious fails, but 
+    # CRASHES, FAILSTOP, PARTITIONS are allowed
 
-#THE APPLICATION
-#WE have a blog like data structure
-#Operations on the blog DS are maintained as blockchain
-#Features: 
-#   users can make blog posts
-#   comments on user posts
-#   view posts & comments
+    #THE APPLICATION
+    #WE have a blog like data structure
+    #Operations on the blog DS are maintained as blockchain
+    #Features: 
+    #   users can make blog posts
+    #   comments on user posts
+    #   view posts & comments
 
 import socket
 import threading
